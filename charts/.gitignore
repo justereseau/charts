@@ -1,0 +1,6 @@
+# Ignore the builded chart
+*.tgz
+
+# Ignore test file created by `helm template ... > out.yml` or `helm template ./deis-workflow-0.1.0.tgz --output-dir ./out`
+out.yml
+out/
